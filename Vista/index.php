@@ -24,7 +24,7 @@ $loader->registrar();
             echo $campo['user_name'] . " => " . $campo['email'] . "</br>";
         }
         ?> -->
-    <!-- <form action="#" method="POST">
+    <form action="#" method="POST">
         <div class="contenedor">
             <h2>Registro de usuario</h2>
             <label for="user-name">Nombre de usuario:</label>
@@ -35,7 +35,7 @@ $loader->registrar();
             <input type="password" id="user-password" placeholder="password"/>
             <input type="button" id="user-registrar" value="Registrar"/>
         </div>
-    </form> -->
+    </form>
         
     </p>
 </body>
